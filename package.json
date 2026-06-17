@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@types/express": "^5.0.6",
+    "@types/node": "^25.9.3",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   },
@@ -16,11 +17,13 @@
     "@langchain/mistralai": "^1.1.0",
     "dotenv": "^17.4.2",
     "esbuild": "^0.28.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "langchain": "^1.4.5",
+    "zod": "^4.4.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx server.ts"
+    "dev": "tsx watch server.ts"
   },
   "keywords": [],
   "author": "",
